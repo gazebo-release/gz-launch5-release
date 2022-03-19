@@ -1,2 +1,2 @@
 # False positive, the file is the real source code
-ignition-launch source: source-is-missing plugins/websocket_server/gz3d.js
+source-is-missing plugins/websocket_server/*.js
