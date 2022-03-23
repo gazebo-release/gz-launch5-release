@@ -1,0 +1,2 @@
+# False positive, the file is the real source code
+source-is-missing plugins/websocket_server/*.js
