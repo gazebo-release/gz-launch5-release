@@ -19,10 +19,10 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                libqt5core5a,
                binutils-dev
-Vcs-Browser: https://github.com/ignitionrobotics/ignition-launch
-Vcs-Git: https://github.com/ignition-release/ign-launch5-release
+Vcs-Browser: https://github.com/gazebosim/gz-launch
+Vcs-Git: https://github.com/gazebo-release/gz-launch5-release
 Standards-Version: 4.5.1
-Homepage: https://github.com/ignition-release/ign-launch5
+Homepage: https://github.com/gazebo-release/gz-launch5
 
 Package: libignition-launch5
 Architecture: any
@@ -32,11 +32,11 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: libignition-launch5-5 (<= 5.0.0+ds-1ubuntu1)
 Replaces: libignition-launch5-5 (<= 5.0.0+ds-1ubuntu1)
 Multi-Arch: same
-Description: Ignition Robotics Launch Library - Launch libraries
- Ignition Launch, a component of Ignition Robotics, provides a command line
+Description: Gazebo Launch Library - Launch libraries
+ Gazebo Launch, a component of Gazebo, provides a command line
  interface to run and manager application and plugins.
  .
- Package contains the ignition launch libraries
+ Package contains the Gazebo launch libraries
 
 Package: libignition-launch5-dev
 Architecture: any
@@ -59,8 +59,8 @@ Depends: libignition-cmake2-dev,
 Breaks: ignition-launch-cli
 Replaces: ignition-launch-cli
 Multi-Arch: same
-Description: Ignition Robotics Launch Library - Development files
- Ignition Launch, a component of Ignition Robotics, provides a command line
+Description: Gazebo Launch Library - Development files
+ Gazebo Launch, a component of Gazebo, provides a command line
  interface to run and manager application and plugins.
  .
- Package contains the ignition launch development files and cli client
+ Package contains the Gazebo launch development files and cli client
