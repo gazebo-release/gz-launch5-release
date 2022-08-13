@@ -64,3 +64,19 @@ Description: Gazebo Launch Library - Development files
  interface to run and manager application and plugins.
  .
  Package contains the Gazebo launch development files and cli client
+
+Package: libgz-launch5
+Depends: libignition-launch5, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-launch5-dev
+Depends: libignition-launch5-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
