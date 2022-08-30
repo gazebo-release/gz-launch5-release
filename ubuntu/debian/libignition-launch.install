@@ -1,2 +1,6 @@
 usr/lib/*/*.so.*
 usr/lib/*/ign-launch-*/plugins/*.so
+usr/lib/ruby/ignition/*.rb
+usr/share/gz/*
+usr/share/ignition/*.yaml
+usr/share/ignition/*/configs/*
